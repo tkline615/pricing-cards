@@ -87,6 +87,12 @@ p.subtitle {
     padding: 20px;
 }
 
+.price-card:hover {
+    box-shadow: rgb(1 14 40 / 15%) 0px 12px 30px -5px;
+    transition: box-shadow 0.2s ease 0s;
+    cursor: pointer;
+}
+
 h5 {
     color: rgb(91, 105, 135);
     font-size: 14px !important;
